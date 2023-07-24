@@ -1,0 +1,3 @@
+name: simple_command
+version: '1.0-SNAPSHOT'
+main: zzc.simple_command.Simple_command
