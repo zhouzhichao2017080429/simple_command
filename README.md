@@ -1,7 +1,8 @@
 # simple_command
 **轻量化便捷指令插件**
 
-![便捷 - 副本](https://github.com/zhouzhichao2017080429/simple_command/assets/73045175/864d87e3-4e65-4ce1-a80d-b3388f59595a)
+![喇叭](https://github.com/zhouzhichao2017080429/simple_command/assets/73045175/e8f903f4-d1d7-44a0-b2f0-8644a9edda9f)
+
 
 
 
