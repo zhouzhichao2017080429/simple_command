@@ -1,19 +1,21 @@
 # speak_command
 **轻量化口语指令插件**
 
-![喇叭](https://github.com/zhouzhichao2017080429/simple_command/assets/73045175/e8f903f4-d1d7-44a0-b2f0-8644a9edda9f)
+![405e7e520a607d3c4918838b925beb27 - 副本 - 副本](https://github.com/zhouzhichao2017080429/speak_command/assets/73045175/905376c8-220b-448c-b9cf-556f0cdf9c29)
 
 
 
 
-
-*你是否想体验刚一说出口事情就发生的那种超能力的快感，当你大喊回家你便回到了家，当你大喊回主城便回到了主城......*
+*你是否想体验刚一说出口事情就发生的那种超能力的快感，当你大喊“回家”你便回到了家，
+当你大喊“回主城”便回到了主城，你说“日出东方！”太阳便升起，你说“风来雨来！”世界便下起了雨......*
 
 **插件效果展示：**
 
 ![image](https://github.com/zhouzhichao2017080429/simple_command/assets/73045175/2e12add0-2b9c-41e2-bc3b-7255a5dc834e)
 ![image](https://github.com/zhouzhichao2017080429/simple_command/assets/73045175/bf71e813-0a05-4249-b936-f97029342c4f)
 ![image](https://github.com/zhouzhichao2017080429/simple_command/assets/73045175/e9eb9775-369c-457e-ae10-f9f22d2f50b5)
+![image](https://github.com/zhouzhichao2017080429/speak_command/assets/73045175/f8b1f500-1ca0-432b-b33e-fd19f9e4142b)
+![image](https://github.com/zhouzhichao2017080429/speak_command/assets/73045175/b05ba721-8001-4dc5-8cea-9c1b18b662ce)
 
 
 
