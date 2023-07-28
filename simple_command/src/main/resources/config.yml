@@ -1,0 +1,116 @@
+# ______  _   _   _____   _   _   ______  _   _   _   _____   _   _       ___   _____  
+#|___  / | | | | /  _  \ | | | | |___  / | | | | | | /  ___| | | | |     /   | /  _  \ 
+#   / /  | |_| | | | | | | | | |    / /  | |_| | | | | |     | |_| |    / /| | | | | | 
+#  / /   |  _  | | | | | | | | |   / /   |  _  | | | | |     |  _  |   / / | | | | | | 
+# / /__  | | | | | |_| | | |_| |  / /__  | | | | | | | |___  | | | |  / /  | | | |_| | 
+#/_____| |_| |_| \_____/ \_____/ /_____| |_| |_| |_| \_____| |_| |_| /_/   |_| \_____/ 
+#
+#ZHICHAO出品必属精品
+
+#最后一个分号后面是要执行的指令，前几个分号都是简化指令，既可以在聊天框使用（大家都能看到），又可以/私人使用
+commands:
+  - 回家;h;H;home;home
+  - 帮助;help
+  - 回主城;回城;spawn;s;S;spawn
+  - 回去;back;b;B;back
+  - tpr;tpr
+  - tps;tps
+  - 菜单;menu;c;C;cd;CD;deluxemenu open basics_menu
+  - 富豪榜;baltop;baltop
+  - 我的现金;money;bal
+  - 在此处安家;定居;sethome;sh;sethome
+  - 我要签到;签到;signin gui
+  - 来吧;来叭;tpaccept
+  - 土地;res info
+  - 自杀;suicide
+  - 我的点卷;points me
+  - c;deluxemenu open basics_menu
+  - cd;deluxemenu open basics_menu
+  - bid;ca gui bid
+
+money_command:
+  rain:
+    listen: "风来雨来！;呼风唤雨！;风调雨顺！"
+    judge: "3000"
+    command: "p take xx yy;kill xx;rain world storm"
+    positive: "§6已扣除yy元..."
+    negetive: "您的余额不足，请及时充值..."
+    broadcast: "§6xx 牺牲了自己，带来了风调雨顺..."
+
+  sun:
+    listen: "万物清明！"
+    judge: "3000"
+    command: "p take xx yy;kill xx;rain world sun"
+    positive: "§6已扣除yy元..."
+    negetive: "您的余额不足，请及时充值..."
+    broadcast: "§6xx 牺牲了自己，换来了一片万物清明的祥和景象..."
+
+points_command:
+  heal:
+    listen: "heal;上天救我！;救我！"
+    judge: "300"
+    command: "p take xx yy;heal xx"
+    positive: "§6您吸收周围灵气得到治疗..."
+    negetive: "您的余额不足，请及时充值..."
+
+  shock:
+    listen: "雷公助我！;天灵灵，地灵灵，雷公，电母显神灵！"
+    judge: "100"
+    command: "p take xx yy;shock xx"
+    positive: "§6一道天雷劈在你的身边..."
+    negetive: "您的余额不足，请及时充值..."
+
+  fire:
+    listen: "急急如意令，火！;火！;星火燎原！"
+    judge: "100"
+    command: "p take xx yy;manuaddp xx essentials.fireball;fireball;manudelp xx essentials.fireball"
+    positive: "§6老君三味真火从你的口中喷出..."
+    negetive: "您的余额不足，请及时充值..."
+
+
+
+  day:
+    listen: "光芒万丈！;日出东方！"
+    judge: "300"
+    command: "p take xx yy;kill xx;time set day"
+    positive: "§6已扣除yy元..."
+    negetive: "您的余额不足，请及时充值..."
+    broadcast: "§6xx 牺牲了自己，换来了光明...."
+
+  night:
+    listen: "黑暗降临！;黑夜降临！;夜幕降临！"
+    judge: "300"
+    command: "p take xx yy;kill xx;time set night"
+    positive: "§6已扣除yy元..."
+    negetive: "您的余额不足，请及时充值..."
+    broadcast: "§6xx 牺牲了自己，召唤了黑夜..."
+
+  save_me:
+    listen: "保镖！;护驾！"
+    judge: "300"
+    command: "p take xx yy;summon minecraft:iron_golem xyz"
+    positive: "§6已为您召唤保镖..."
+    negetive: "您的余额不足，请及时充值..."
+
+  god_punish:
+    listen: "天罚！"
+    judge: "1000"
+    command: "p take xx yy;kill xx;shock *"
+    positive: "§6已扣除yy元..."
+    negetive: "您的余额不足，请及时充值..."
+    broadcast: "§6xx 牺牲了自己，惩罚了众生..."
+
+  kill_god:
+    listen: "苍天已死，黄天当立，岁在甲子，天下大吉！"
+    judge: "3000"
+    command: "p take xx yy;kill xx;kill Allen_z"
+    positive: "§6已扣除yy元..."
+    negetive: "您的余额不足，请及时充值..."
+    broadcast: "§6xx 牺牲了自己，弑杀了腐竹..."
+
+  arrow:
+    listen: "伟大的天神呀，请赐予我一根箭叭！"
+    judge: "10"
+    command: "p take xx yy;give xx arrow 1"
+    positive: "§6已扣除yy元..."
+    negetive: "您的余额不足，请及时充值..."
