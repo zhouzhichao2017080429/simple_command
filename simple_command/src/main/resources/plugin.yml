@@ -1,3 +1,0 @@
-name: simple_command
-version: '${project.version}'
-main: zzc.simple_command.Simple_command
